@@ -27,8 +27,8 @@ import java.util.zip.GZIPInputStream;
 @Service
 public class WeatherService extends Scraper<WeatherPOJO> {
 
-    private static final String MAIN_PAGE = "https://rp5.ru/Архів_погоди_в_Києві,_Жулянах_(аеропорт)";
-    private static final String ACCESS_POINT = "https://rp5.ru/responses/reFileSynop.php";
+    private static final String MAIN_PAGE = "https://rp5.kz/Архів_погоди_в_Києві,_Жулянах_(аеропорт)";
+    private static final String ACCESS_POINT = "https://rp5.kz/responses/reFileSynop.php";
 
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd.MM.yyyy");
 
