@@ -97,5 +97,5 @@ pw-scraper-service/
 
 ## 🔗 Related Services
 
-- [`polliweather-analytics`](https://github.com/BrovkoD/pw-analytics-service)  
+- [`Analytics Service`](https://github.com/BrovkoD/pw-analytics-service)  
   → Trains AI models (NeuralProphet, AR-Net), performs seasonal predictions, serves insights
