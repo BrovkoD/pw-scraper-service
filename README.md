@@ -57,13 +57,6 @@ This data is used by the **Analytics Service** to model time series, analyze all
 
 - Scrapes ragweed plant records with metadata (ID, coordinates, size, report history)
 - Extracts 3-hour weather data (temperature, humidity, pressure)
-- Computes **Weather Factor**:  
-  **F = (t × P) / H**
-  where:  
-  • *t* — temperature in °C  
-  • *P* — pressure in mmHg  
-  • *H* — relative humidity in %
-- Maps ragweed coordinates to Kyiv districts
 - Exposes data via REST API for the analytics pipeline
 
 ---
